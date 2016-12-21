@@ -3,7 +3,9 @@
       "name":"272S",
       "schedule":{
          "toHkstp":{
-            "from":"鑽石山鐵路站總站",
+            "from":[
+               "鑽石山鐵路站總站"
+            ],
             "weekday":[
                "07:20",
                "07:40",
@@ -26,7 +28,9 @@
             ]
          },
          "fromHkstp":{
-            "to":"鑽石山鐵路站總站",
+            "to":[
+               "鑽石山鐵路站總站"
+            ],
             "weekday":[
                "17:30",
                "17:42",
@@ -52,13 +56,17 @@
       "name":"SP1",
       "schedule":{
          "toHkstp":{
-            "from":"西環",
+            "from":[
+               "西環"
+            ],
             "weekday":[
                "07:47"
             ]
          },
          "fromHkstp":{
-            "to":"金鐘",
+            "to":[
+               "金鐘"
+            ],
             "weekday":[
                "18:20"
             ]
@@ -69,7 +77,9 @@
       "name":"SP2",
       "schedule":{
          "fromHkstp":{
-            "to":"北角",
+            "to":[
+               "北角"
+            ],
             "weekday":[
                "18:20",
                "18:30"
@@ -81,7 +91,9 @@
       "name":"SP2A",
       "schedule":{
          "toHkstp":{
-            "from":"柴灣",
+            "from":[
+               "柴灣"
+            ],
             "weekday":[
                "08:00"
             ]
@@ -92,7 +104,9 @@
       "name":"SP2B",
       "schedule":{
          "toHkstp":{
-            "from":"西灣河",
+            "from":[
+               "西灣河"
+            ],
             "weekday":[
                "08:10"
             ]
@@ -103,9 +117,40 @@
       "name":"SP3",
       "schedule":{
          "fromHkstp":{
-            "to":"佐敦",
+            "to":[
+               "佐敦"
+            ],
             "weekday":[
                "18:20"
+            ]
+         }
+      }
+   },
+   "sp4":{
+      "name":"SP4",
+      "schedule":{
+         "fromHkstp":{
+            "to":[
+               "屯門"
+            ],
+            "weekday":[
+               "18:20",
+               "18:30"
+            ]
+         }
+      }
+   },
+   "sp5":{
+      "name":"SP5",
+      "schedule":{
+         "fromHkstp":{
+            "to":[
+               "元朗",
+               "天水圍"
+            ],
+            "weekday":[
+               "18:20",
+               "18:30"
             ]
          }
       }
