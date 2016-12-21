@@ -1,9 +1,9 @@
 {
    "kmb272s":{
-      "source":"香港科學園第三期",
-      "destination":"鑽石山鐵路站總站",
+      "name":"272S",
       "schedule":{
          "toHkstp":{
+            "from":"鑽石山鐵路站總站",
             "weekday":[
                "07:20",
                "07:40",
@@ -26,6 +26,7 @@
             ]
          },
          "fromHkstp":{
+            "to":"鑽石山鐵路站總站",
             "weekday":[
                "17:30",
                "17:42",
@@ -43,6 +44,68 @@
                "18:05",
                "18:15",
                "18:35"
+            ]
+         }
+      }
+   },
+   "sp1":{
+      "name":"SP1",
+      "schedule":{
+         "toHkstp":{
+            "from":"西環",
+            "weekday":[
+               "07:47"
+            ]
+         },
+         "fromHkstp":{
+            "to":"金鐘",
+            "weekday":[
+               "18:20"
+            ]
+         }
+      }
+   },
+   "sp2":{
+      "name":"SP2",
+      "schedule":{
+         "fromHkstp":{
+            "to":"北角",
+            "weekday":[
+               "18:20",
+               "18:30"
+            ]
+         }
+      }
+   },
+   "sp2a":{
+      "name":"SP2A",
+      "schedule":{
+         "toHkstp":{
+            "from":"柴灣",
+            "weekday":[
+               "08:00"
+            ]
+         }
+      }
+   },
+   "sp2b":{
+      "name":"SP2B",
+      "schedule":{
+         "toHkstp":{
+            "from":"西灣河",
+            "weekday":[
+               "08:10"
+            ]
+         }
+      }
+   },
+   "sp3":{
+      "name":"SP3",
+      "schedule":{
+         "fromHkstp":{
+            "to":"佐敦",
+            "weekday":[
+               "18:20"
             ]
          }
       }
