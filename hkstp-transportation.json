@@ -3,7 +3,18 @@
       "kmb272s",
       "sp1",
       "sp2a",
-      "sp2b"
+      "sp2b",
+      "sp4a",
+      "sp4b",
+      "sp5a1",
+      "sp5a2",
+      "sp5b",
+      "sp6",
+      "sp7a",
+      "sp7b",
+      "sp8",
+      "sp9",
+      "sp10"
    ],
    "fromHkstp":[
       "kmb272s",
@@ -11,7 +22,11 @@
       "sp2",
       "sp3",
       "sp4",
-      "sp5"
+      "sp5",
+      "sp6",
+      "sp7",
+      "sp8",
+      "sp9"
    ],
    "routes":{
       "kmb272s":{
